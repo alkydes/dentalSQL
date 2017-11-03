@@ -1,0 +1,40 @@
+<style>
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+svg text{
+    font-family:optima;
+}
+
+svg text .title{
+    font-size: 2em;
+}
+
+.lifespan .outside_brush {
+    fill-opacity: 0.1
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+</style>
+
+<div class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+					<div id="chart" align="center"></div>
+					
+			</div>
+		</div>
+	</div>
+</div>
